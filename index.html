@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sun </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating particles -->
+
+<canvas id="particles"></canvas>
+
+  <!-- Rose rain container -->
+
+  <div class="rose-overlay"></div>
+
+  <!-- Page indicator dots -->
+
+  <div class="dots">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+
+  <!-- ══════════════════════════════
+       PAGE 1 — Identity check
+  ══════════════════════════════ -->
+
+  <section class="page active" id="page1">
+    <p class="question-label">acha sun</p>
+    <h1>Kya aap Vanshika<br/> yani Vaani hain? 🌸</h1>
+    <p class="subtitle"></p>
+    <div class="btn-group">
+      <button class="btn btn-yes" id="btn-yes">Haan, main hoon ✨</button>
+      <button class="btn btn-no"  id="btn-no">Nahi </button>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       PAGE 2 — Hi, I'm Shivam
+  ══════════════════════════════ -->
+
+  <section class="page" id="page2">
+    <p class="intro-small">Tumse milke khushi hui...</p>
+    <h2>Hi, main Shivam hoon 💫</h2>
+
+```
+<div class="message-box">
+  Dekh, waise toh tune kaha hai ki apna kuch nahi ho sakta —<br/>
+  par sach bataaun toh mujhe tujhse achi <span class="heart">❤️</span> koi nahi lagti.<br/><br/>
+  Aur main tujhse bohot zyada pyaar karta hoon.<br/><br/>
+  Haan, shayad main wo ladka nahi jo tu chahti hai —<br/>
+  par main teri kasam, main apni poori zindagi mein<br/>
+  woh sab kuch karunga jo bhi mujhse ho sake.<br/><br/>
+  Mere liye... sab milne ke baad<br/>
+  <span class="heart">— bas tू hi chahiye. 🌹</span>
+</div>
+
+<button class="btn btn-yes next-btn" id="p2-next">Aage chalo →</button>
+```
+
+  </section>
+
+  <!-- ══════════════════════════════
+       PAGE 3 — Sher 1 (Flip)
+  ══════════════════════════════ -->
+
+  <section class="page" id="page3">
+    <p class="flip-page-title">Dil ki zubaan... 💬</p>
+
+```
+<div class="flip-wrapper">
+  <div class="flip-scene">
+    <div class="flip-card" id="flip3">
+      <div class="flip-front">
+        <p class="urdu-quote">Tum mohabbat sachi ho kya... 🌹</p>
+      </div>
+      <div class="flip-back">
+        <p class="urdu-quote">Sach mein itni achi ho kya? 💕</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-timer">
+    <div class="flip-timer-bar" id="fn3"></div>
+  </div>
+</div>
+
+<button class="btn btn-yes flip-next" id="p3-next">Aage chalo →</button>
+```
+
+  </section>
+
+  <!-- ══════════════════════════════
+       PAGE 4 — Sher 2 (Flip)
+  ══════════════════════════════ -->
+
+  <section class="page" id="page4">
+    <p class="flip-page-title">Tere liye... 🌺</p>
+
+```
+<div class="flip-wrapper">
+  <div class="flip-scene">
+    <div class="flip-card" id="flip4">
+      <div class="flip-front">
+        <p class="urdu-quote">
+          Koi acha sa phool hota<br/>toh tumhe zaroor pesh karta... 🌸
+        </p>
+      </div>
+      <div class="flip-back">
+        <p class="urdu-quote">
+          Magar jo khud hi gulaab ho —<br/>
+          use kya gulaab doon? 🙃🌹
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-timer">
+    <div class="flip-timer-bar" id="fn4"></div>
+  </div>
+</div>
+
+<button class="btn btn-yes flip-next" id="p4-next">Aage chalo →</button>
+```
+
+  </section>
+
+  <!-- ══════════════════════════════
+       PAGE 5 — Sher 3 (Flip)
+  ══════════════════════════════ -->
+
+  <section class="page" id="page5">
+    <p class="flip-page-title">Dil ka hisaab... 💎</p>
+
+```
+<div class="flip-wrapper">
+  <div class="flip-scene">
+    <div class="flip-card" id="flip5">
+      <div class="flip-front">
+        <p class="urdu-quote">
+          Chandi sona ek taraf —<br/>
+          aur tera hona ek taraf ✨
+        </p>
+      </div>
+      <div class="flip-back">
+        <p class="urdu-quote">
+          Ek taraf teri aankhein —<br/>
+          jaadu tona ek taraf ❤️
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-timer">
+    <div class="flip-timer-bar" id="fn5"></div>
+  </div>
+</div>
+
+<button class="btn btn-yes flip-next" id="p5-next">Last page →</button>
+```
+
+  </section>
+
+  <!-- ══════════════════════════════
+       PAGE 6 — Final confession
+  ══════════════════════════════ -->
+
+  <section class="page" id="page6">
+    <div class="final-icon">🌹</div>
+    <p class="final-text">
+      Dekh, apne dono ka baad ka toh pata nahi —<br/>
+      kya hoga, kya nahi hoga...<br/><br/>
+      Par ek cheez ka mujhe poora yakeen hai —<br/><br/>
+      <strong>Tujhse achi kabhi koi nahi lagegi mujhe.</strong><br/><br/>
+      Bas itna hi kehna tha. 💕
+    </p>
+    <p class="final-signature">— Shivam 🌹</p>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
